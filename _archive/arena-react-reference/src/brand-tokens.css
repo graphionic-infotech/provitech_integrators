@@ -1,0 +1,27 @@
+/* Official ProviTech Integrators color roles */
+:root{--brand-charcoal:#25282D;--brand-blue:#009DFF;--brand-navy:#061B49;--brand-white:#FFFFFF;--brand-light:#F1F5F9;--brand-slate:#374151;color:#25282D}
+:focus-visible{outline-color:var(--brand-blue)!important}
+.topline{background:var(--brand-charcoal);color:#e2e8f0}
+.site-header{background:var(--brand-white);border-color:#e2e8f0}.site-header.scrolled{box-shadow:0 8px 25px #061b4918}
+.main-nav>a:not(.nav-mobile-cta):hover,.main-nav>a[href="/brand-guidelines"]{color:var(--brand-blue)}
+.header-cta,.nav-mobile-cta{background:var(--brand-blue);color:var(--brand-navy)}.header-cta:hover{background:#33afff}
+.hero{background:var(--brand-charcoal)}.hero-image{filter:saturate(.85)}.hero-shade{background:linear-gradient(90deg,rgba(6,27,73,.92) 0%,rgba(6,27,73,.78) 35%,rgba(37,40,45,.37) 69%,rgba(37,40,45,.08) 100%)}
+.hero-kicker{color:#b9e5ff}.kicker-line{background:var(--brand-blue)}.hero h1 em{color:var(--brand-blue)}
+.button-light{background:var(--brand-blue);color:var(--brand-navy)}.button-light:hover{background:#33afff}.hero-text-link{border-color:#75c9ff;color:#fff}
+.hero-version-switch button.active{background:var(--brand-blue);color:var(--brand-navy)}
+.eyebrow{color:var(--brand-blue)}h2 span{color:var(--brand-blue)}
+.intro-copy p,.section-heading p,.approach-content>p,.service-item p,.approach-list p,.contact-copy>p{color:var(--brand-slate)}
+.text-link{border-color:var(--brand-blue);color:var(--brand-blue)}
+.services,.gallery-section{background:var(--brand-light)}
+.services-grid{border-color:#d3dbe5}.service-item{border-color:#d3dbe5}.service-item:hover{background:#fff}.service-top,.service-arrow,.approach-list>div>span{color:var(--brand-blue)}.service-item h3,.approach-list strong{color:var(--brand-navy)}
+.approach-image{background:var(--brand-light)}.approach-list,.approach-list>div{border-color:#d3dbe5}
+.products{background:var(--brand-charcoal);color:#fff}.products .eyebrow{color:var(--brand-blue)}.product-heading h2 span{color:var(--brand-blue)}.product-heading p,.product-meta span{color:#cbd5e1}.product-image{background:#374151}.product-action{color:var(--brand-navy)}.product-item:hover .product-action{background:var(--brand-blue)}
+.gallery-item{background:var(--brand-light)}
+.contact{background:var(--brand-light)}.contact-copy>p{color:var(--brand-slate)}.contact-details{border-color:#cbd5e1}.contact-details>a,.contact-details>div{border-color:#cbd5e1;color:var(--brand-navy)}.contact-details>a:hover{color:var(--brand-blue)}
+.contact-form{background:#fff;box-shadow:0 22px 60px #061b4912}.contact-form h3,.form-field label{color:var(--brand-navy)}.form-field input,.form-field select,.form-field textarea{border-color:#cbd5e1;color:var(--brand-charcoal)}.form-field input:focus,.form-field select:focus,.form-field textarea:focus{border-color:var(--brand-blue);box-shadow:0 0 0 3px #009dff30}.button-dark{background:var(--brand-blue);color:var(--brand-navy)}.button-dark:hover{background:#33afff}
+.footer{background:var(--brand-charcoal);color:#e2e8f0}.footer-brand .brand-logo{filter:none;opacity:1;background:#fff;padding:6px}.footer-nav>span,.footer-contact>span{color:var(--brand-blue)}.footer-bottom{border-color:#4b5563;color:#cbd5e1}.footer-nav a:hover,.footer-contact a:hover,.footer-bottom a:hover{color:var(--brand-blue)}
+.hero-v2 .hero-shade{background:linear-gradient(90deg,rgba(6,27,73,.94),rgba(6,27,73,.79) 44%,rgba(6,27,73,.18))}.hero-v2 .hero-text{border-color:var(--brand-blue)}.hero-v3 .hero-shade{background:linear-gradient(90deg,rgba(241,245,249,.97),rgba(241,245,249,.91) 37%,rgba(241,245,249,.55) 58%,rgba(6,27,73,.12))}.hero-v3,.hero-v3 h1{color:var(--brand-charcoal)}.hero-v3 .hero-kicker,.hero-v3 .hero-scroll,.hero-v3 .hero-text-link{color:var(--brand-navy)}.hero-v3 h1 em{color:var(--brand-blue)}.hero-v3 .hero-text>p{color:var(--brand-slate)}.hero-v3 .hero-version-switch{background:rgba(255,255,255,.88);border-color:#cbd5e1}.hero-v3 .hero-version-switch button{color:var(--brand-slate)}.hero-v3 .hero-version-switch button.active{background:var(--brand-blue);color:var(--brand-navy)}
+@media(max-width:900px){.main-nav{background:#fff}.main-nav>a:not(.nav-mobile-cta){border-color:#e2e8f0}}
+.main-nav>a:not(.nav-mobile-cta):hover{color:var(--brand-blue)}
+.hero-v3 .button-light{background:var(--brand-blue);color:var(--brand-navy)}
+.hero-v3 .button-light:hover{background:#33afff}

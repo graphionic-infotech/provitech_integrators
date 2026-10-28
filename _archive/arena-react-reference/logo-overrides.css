@@ -1,0 +1,6 @@
+/* ProviTech Integrators brand mark */
+.brand{gap:0}
+.brand-logo{display:block;width:clamp(142px,15vw,205px);height:auto;max-height:64px;object-fit:contain}
+.brand-light .brand-logo{filter:brightness(0) invert(1);opacity:.92}
+.footer-brand .brand-logo{width:min(100%,250px);max-height:82px}
+@media(max-width:700px){.brand-logo{width:clamp(135px,42vw,182px);max-height:58px}}

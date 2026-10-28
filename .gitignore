@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Legacy Node & Package Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build Outputs & Temporary Artifacts
+dist/
+.vite/
+*.log
+
+# Scratch / QA Testing Artifacts (Internal Antigravity Workspace)
+scratch/
+clean_test_deploy/

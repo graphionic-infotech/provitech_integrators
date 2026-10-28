@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#25282D">
+  <meta name="description" content="ProviTech Integrators Brand Guidelines - Master identity system, color palette, logo specifications, and typography manual.">
+  <title>ProviTech Integrators | Brand Guidelines Manual</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/brand/provitech-logo.png">
+
+  <!-- Typography: Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Modular CSS Architecture -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/typography.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages/brand-guidelines.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <!-- GSAP Motion Engine & ScrollTrigger (Phase 4.7 Animation Foundation) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Application Logic (Native ES Module) -->
+  <script type="module" src="assets/js/main.js"></script>
+</head>
+<body class="guidelines-page">
+
+  <!-- Accessible Skip Link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Guidelines Header -->
+  <header class="bg-header">
+    <div class="bg-container bg-header-inner">
+      <a href="index.html" class="bg-brand" aria-label="ProviTech Integrators Home">
+        <img src="assets/images/brand/provitech-logo.png" alt="ProviTech Integrators official logo" width="186" height="62">
+      </a>
+
+      <button class="bg-menu-toggle" aria-controls="bg-nav" aria-expanded="false" aria-label="Toggle navigation menu">
+        <svg class="icon icon--menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="bg-nav" id="bg-nav" aria-label="Brand Manual Navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+        <a class="is-active" href="brand-guidelines.html" aria-current="page">Brand Guidelines</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1. Hero Section -->
+    <section class="bg-hero">
+      <div class="bg-container bg-hero-inner">
+        <div>
+          <span class="eyebrow">PROVITECH INTEGRATORS / BRAND MANUAL</span>
+          <h1>One identity.<br><span>Built for confidence.</span></h1>
+          <p>Our visual system brings clarity and consistency to every customer touchpoint—from surveillance solutions to the way we show up online.</p>
+          <a class="btn btn--primary" href="#palette">
+            Explore the palette
+            <svg class="icon icon--arrow-right" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14"></path>
+              <path d="m12 5 7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="bg-logo-hero">
+          <img src="assets/images/brand/provitech-logo.png" alt="Official ProviTech Integrators logo" width="300" height="100">
+          <span>OFFICIAL BRAND MARK · PRIMARY VERSION</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Brand Overview Section -->
+    <section class="bg-section" id="overview">
+      <div class="bg-container bg-overview">
+        <div>
+          <span class="eyebrow">01 / BRAND OVERVIEW</span>
+          <h2>PROVITECH<br>INTEGRATORS</h2>
+        </div>
+        <div>
+          <p class="bg-lead">Integrated protection for the places that matter.</p>
+          <p>ProviTech Integrators delivers CCTV, video surveillance and security system integration. Our identity pairs dependable charcoal and navy foundations with an electric-blue signal—clear, contemporary and confident.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Color System Section -->
+    <section class="bg-section bg-soft" id="palette">
+      <div class="bg-container">
+        <div class="bg-section-head">
+          <div>
+            <span class="eyebrow">02 / COLOR SYSTEM</span>
+            <h2>Color with purpose.</h2>
+          </div>
+          <p>Use this six-color palette consistently across digital and print materials.</p>
+        </div>
+
+        <div class="bg-palette">
+          <!-- 01: Primary Charcoal -->
+          <article class="bg-color-card">
+            <div class="bg-swatch bg-swatch--charcoal">
+              <span>01</span>
+            </div>
+            <div class="bg-color-info">
+              <h3>Primary Charcoal</h3>
+              <code>#25282D</code>
+              <p>Dark backgrounds, footer, strong headings</p>
+              <button class="bg-copy" data-hex="#25282D" type="button" aria-label="Copy #25282D">
+                <svg class="icon icon--copy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                Copy HEX
+              </button>
+            </div>
+          </article>
+
+          <!-- 02: Primary Electric Blue -->
+          <article class="bg-color-card">
+            <div class="bg-swatch bg-swatch--blue">
+              <span>02</span>
+            </div>
+            <div class="bg-color-info">
+              <h3>Primary Electric Blue</h3>
+              <code>#009DFF</code>
+              <p>Primary actions, links, active states, highlights</p>
+              <button class="bg-copy" data-hex="#009DFF" type="button" aria-label="Copy #009DFF">
+                <svg class="icon icon--copy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                Copy HEX
+              </button>
+            </div>
+          </article>
+
+          <!-- 03: Secondary Deep Navy -->
+          <article class="bg-color-card">
+            <div class="bg-swatch bg-swatch--navy">
+              <span>03</span>
+            </div>
+            <div class="bg-color-info">
+              <h3>Secondary Deep Navy</h3>
+              <code>#061B49</code>
+              <p>Secondary headings, icons, supporting accents</p>
+              <button class="bg-copy" data-hex="#061B49" type="button" aria-label="Copy #061B49">
+                <svg class="icon icon--copy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                Copy HEX
+              </button>
+            </div>
+          </article>
+
+          <!-- 04: Pure White -->
+          <article class="bg-color-card">
+            <div class="bg-swatch bg-swatch--white">
+              <span class="swatch-border">04</span>
+            </div>
+            <div class="bg-color-info">
+              <h3>Pure White</h3>
+              <code>#FFFFFF</code>
+              <p>Navigation, cards, forms and clean content</p>
+              <button class="bg-copy" data-hex="#FFFFFF" type="button" aria-label="Copy #FFFFFF">
+                <svg class="icon icon--copy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                Copy HEX
+              </button>
+            </div>
+          </article>
+
+          <!-- 05: Light Grey -->
+          <article class="bg-color-card">
+            <div class="bg-swatch bg-swatch--light">
+              <span>05</span>
+            </div>
+            <div class="bg-color-info">
+              <h3>Light Grey</h3>
+              <code>#F1F5F9</code>
+              <p>Alternating sections and subtle containers</p>
+              <button class="bg-copy" data-hex="#F1F5F9" type="button" aria-label="Copy #F1F5F9">
+                <svg class="icon icon--copy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                Copy HEX
+              </button>
+            </div>
+          </article>
+
+          <!-- 06: Slate Grey -->
+          <article class="bg-color-card">
+            <div class="bg-swatch bg-swatch--slate">
+              <span>06</span>
+            </div>
+            <div class="bg-color-info">
+              <h3>Slate Grey</h3>
+              <code>#374151</code>
+              <p>Supporting text, descriptions and borders</p>
+              <button class="bg-copy" data-hex="#374151" type="button" aria-label="Copy #374151">
+                <svg class="icon icon--copy" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                  <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+                </svg>
+                Copy HEX
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- Palette in Context Demo -->
+        <div class="bg-demo">
+          <div class="bg-demo-nav">
+            <img src="assets/images/brand/provitech-logo.png" alt="ProviTech Integrators" width="140" height="47">
+            <nav>
+              <span>Solutions</span>
+              <span>About</span>
+              <b>Contact</b>
+            </nav>
+          </div>
+          <div class="bg-demo-content">
+            <div>
+              <span class="eyebrow">COLOR IN CONTEXT</span>
+              <h3>Security that<br><em>sees it all.</em></h3>
+              <p>Integrated camera systems designed around your site.</p>
+              <button class="btn btn--primary" type="button">
+                Explore solutions
+                <svg class="icon icon--arrow-right" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="bg-demo-card">
+              <span class="bg-demo-icon">
+                <svg class="icon icon--camera" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+                  <circle cx="12" cy="13" r="3"></circle>
+                </svg>
+              </span>
+              <strong>Always in focus.</strong>
+              <p>Clear coverage. Reliable integration. Support you can trust.</p>
+              <a class="text-link" href="#contact">
+                Learn more
+                <svg class="icon icon--arrow-right" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Official Logo Section -->
+    <section class="bg-section" id="logo">
+      <div class="bg-container">
+        <div class="bg-section-head">
+          <div>
+            <span class="eyebrow">03 / OFFICIAL LOGO</span>
+            <h2>Keep it recognizable.</h2>
+          </div>
+          <p>Use the supplied master artwork. Never reconstruct the mark or alter its proportions.</p>
+        </div>
+
+        <div class="bg-logo-boards">
+          <div class="bg-logo-board white">
+            <img src="assets/images/brand/provitech-logo.png" alt="Official logo displayed on white" width="280" height="90">
+            <span>PRIMARY · WHITE</span>
+          </div>
+          <div class="bg-logo-board grey">
+            <img src="assets/images/brand/provitech-logo.png" alt="Official logo displayed on light grey" width="280" height="90">
+            <span>LIGHT GREY · #F1F5F9</span>
+          </div>
+          <div class="bg-logo-board dark">
+            <div>
+              <img src="assets/images/brand/provitech-logo.png" alt="Official logo shown on white clear-space panel over charcoal" width="280" height="90">
+            </div>
+            <span>CHARCOAL · USE CONTRAST PANEL</span>
+          </div>
+        </div>
+
+        <div class="bg-logo-notes">
+          <article>
+            <span class="eyebrow">HEADER PLACEMENT</span>
+            <div class="bg-header-example">
+              <img src="assets/images/brand/provitech-logo.png" alt="Recommended website header logo placement" width="120" height="40">
+              <span>Services &nbsp; About &nbsp; Contact</span>
+              <button type="button">GET IN TOUCH</button>
+            </div>
+            <p>Place the logo at the left of a clean white header. Keep the full mark visible and comfortably separated from navigation.</p>
+          </article>
+
+          <article>
+            <span class="eyebrow">CLEAR SPACE &amp; SCALE</span>
+            <div class="bg-clearspace">
+              <div>
+                <img src="assets/images/brand/provitech-logo.png" alt="Logo displayed with safe clear space" width="240" height="80">
+              </div>
+            </div>
+            <p>Maintain a minimum clear space equal to the height of the “I” in INTEGRATORS around all sides. Scale proportionally; never force a fixed width and height.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Logo Usage Rules Section -->
+    <section class="bg-section bg-soft">
+      <div class="bg-container">
+        <div class="bg-section-head">
+          <div>
+            <span class="eyebrow">04 / LOGO USAGE</span>
+            <h2>Protect the mark.</h2>
+          </div>
+          <p>Consistency makes the identity stronger and easier to recognize.</p>
+        </div>
+
+        <div class="bg-usage-grid">
+          <article class="bg-usage-card good">
+            <h3>
+              <svg class="icon icon--check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 6 9 17l-5-5"></path>
+              </svg>
+              Correct usage
+            </h3>
+            <ul>
+              <li>Preserve original proportions and charcoal, blue and navy colors.</li>
+              <li>Maintain clear space and keep the entire logo readable.</li>
+              <li>Use suitable, uncluttered backgrounds with adequate contrast.</li>
+              <li>Display with <code>object-fit: contain</code>.</li>
+            </ul>
+          </article>
+
+          <article class="bg-usage-card bad">
+            <h3>
+              <svg class="icon icon--close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="18" x2="6" y1="6" y2="18"></line>
+                <line x1="6" x2="18" y1="6" y2="18"></line>
+              </svg>
+              Never do this
+            </h3>
+            <ul>
+              <li>Stretch, distort, rotate or rearrange the logo elements.</li>
+              <li>Recolor the artwork or add gradients, outlines or shadows.</li>
+              <li>Crop the camera symbols or the word INTEGRATORS.</li>
+              <li>Place over busy imagery or recreate with ordinary text.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Typography Specimen Section -->
+    <section class="bg-section" id="type">
+      <div class="bg-container">
+        <div class="bg-section-head">
+          <div>
+            <span class="eyebrow">05 / TYPOGRAPHY</span>
+            <h2>Meet Montserrat.</h2>
+          </div>
+          <p>Our official typeface: clear, contemporary and confident across every touchpoint.</p>
+        </div>
+
+        <div class="type-specimen">
+          <span class="eyebrow">OFFICIAL BRAND TYPEFACE</span>
+          <strong>Montserrat</strong>
+          <p>
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+            abcdefghijklmnopqrstuvwxyz<br>
+            0123456789 &nbsp; !?@#$%&amp;*()—
+          </p>
+        </div>
+
+        <div class="type-weights">
+          <div>
+            <b class="w400">Aa</b>
+            <span>Regular</span>
+            <code>400</code>
+          </div>
+          <div>
+            <b class="w500">Aa</b>
+            <span>Medium</span>
+            <code>500</code>
+          </div>
+          <div>
+            <b class="w600">Aa</b>
+            <span>Semibold</span>
+            <code>600</code>
+          </div>
+          <div>
+            <b class="w700">Aa</b>
+            <span>Bold</span>
+            <code>700</code>
+          </div>
+          <div>
+            <b class="w800">Aa</b>
+            <span>ExtraBold</span>
+            <code>800</code>
+          </div>
+        </div>
+
+        <div class="type-examples">
+          <article>
+            <span>H1 · 56px / 800 · 1.1</span>
+            <h3 class="type-h1">Protection,<br>perfectly integrated.</h3>
+          </article>
+          <article>
+            <span>H2 · 40px / 700 · 1.2</span>
+            <h3 class="type-h2">Designed for confidence</h3>
+          </article>
+          <article>
+            <span>H3 · 28px / 700 · 1.25</span>
+            <h3 class="type-h3">Security that fits your site</h3>
+          </article>
+          <article>
+            <span>H4 · 20px / 600 · 1.3</span>
+            <h3 class="type-h4">Reliable camera systems</h3>
+          </article>
+        </div>
+
+        <div class="type-backgrounds">
+          <article class="type-bg-white">
+            <span>WHITE · CHARCOAL TYPE</span>
+            <strong>Clear by design.</strong>
+            <p>Body copy in slate grey.</p>
+          </article>
+          <article class="type-bg-grey">
+            <span>LIGHT GREY · NAVY TYPE</span>
+            <strong>Made for clarity.</strong>
+            <p>Subtle neutral section background.</p>
+          </article>
+          <article class="type-bg-dark">
+            <span>CHARCOAL · WHITE TYPE</span>
+            <strong>Confidence, built in.</strong>
+            <p>Blue accent for selected words.</p>
+          </article>
+        </div>
+
+        <p class="type-guidance">
+          Use ExtraBold for hero statements, Bold for section headings, Semibold for navigation, cards and buttons, and Regular for paragraphs. Keep heading line-height between 1.1 and 1.25, body text near 1.6 and letter spacing restrained.
+        </p>
+      </div>
+    </section>
+
+    <!-- 7. UI Application Section -->
+    <section class="bg-section bg-soft" id="components">
+      <div class="bg-container">
+        <div class="bg-section-head">
+          <div>
+            <span class="eyebrow">06 / UI APPLICATION</span>
+            <h2>One system, everywhere.</h2>
+          </div>
+          <p>Standardized components, buttons, form controls, and cards powered by centralized design tokens.</p>
+        </div>
+
+        <div class="bg-ui-grid">
+          <!-- Card 1: Buttons & Interactive Actions -->
+          <article class="bg-ui-card">
+            <span class="eyebrow">BUTTON FAMILY &amp; STATES</span>
+            <div class="bg-button-row">
+              <button class="btn btn--primary" type="button">
+                Primary CTA
+                <svg class="icon icon--arrow-right" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+              <button class="btn btn--secondary" type="button">Secondary Navy</button>
+              <button class="btn btn--primary" type="button" disabled aria-disabled="true">Disabled</button>
+            </div>
+            <div class="bg-button-row bg-button-row--dark">
+              <button class="btn btn--light" type="button">Light on Dark</button>
+              <a class="btn btn--text" href="#contact">Text CTA &rarr;</a>
+            </div>
+            <p class="bg-ui-note">
+              Primary CTA uses Electric Blue (<code>#009DFF</code>) with Pure White (<code>#FFFFFF</code>) text &amp; arrow icon. Features capsule-inspired rounded rectangle geometry (24px radius, <code>--radius-btn</code>) and deeper blue (<code>#0082D6</code>) hover state.
+            </p>
+          </article>
+
+          <!-- Card 2: Service & Product Cards -->
+          <article class="bg-ui-card">
+            <span class="eyebrow">CARD ARCHITECTURE</span>
+            <div class="bg-service-demo">
+              <span>
+                <svg class="icon icon--shield" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </span>
+              <div>
+                <strong>CCTV Surveillance (.card--service)</strong>
+                <p>Reliable coverage for every entry point.</p>
+              </div>
+              <svg class="icon icon--arrow-right" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </div>
+            <p class="bg-ui-note">
+              Cards share a neutral border, 16px radius (<code>--radius-lg</code>), smooth hover elevation, and Electric Blue interactive cue accents.
+            </p>
+          </article>
+
+          <!-- Card 3: Form Controls & Validation -->
+          <article class="bg-ui-card">
+            <span class="eyebrow">FORM DESIGN SYSTEM</span>
+            <div class="bg-form-demo">
+              <div class="form-field">
+                <label for="demo-email">Work email (Focused State)</label>
+                <input class="form-control is-focused" id="demo-email" value="contact@provitech.in" readonly>
+                <span class="bg-form-demo-hint">Electric Blue border with 3px focus ring and 12px radius (<code>--radius-md</code>).</span>
+              </div>
+              <div class="form-feedback is-visible form-feedback--info">
+                <strong>Standard Validation Feedback:</strong> Accessible inline card for form submissions.
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Dark & Light Section Scaffolding -->
+          <article class="bg-ui-card">
+            <span class="eyebrow">SECTION &amp; FOOTER SCAFFOLDING</span>
+            <div class="bg-mini-dark">
+              <img src="assets/images/brand/provitech-logo.png" alt="ProviTech logo on white footer panel" width="106" height="35">
+              <span>Charcoal foundation · white text · blue accents</span>
+            </div>
+            <p class="bg-ui-note">
+              Dark sections use Primary Charcoal (#25282D) or Deep Navy (#061B49) with high-contrast white text and white protective logo backing.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Corner Radius & Shape Language Section -->
+    <section class="bg-section" id="shape-language">
+      <div class="bg-container">
+        <div class="bg-section-head">
+          <div>
+            <span class="eyebrow">07 / SHAPE LANGUAGE</span>
+            <h2>Corner Radius &amp; Shape Language</h2>
+          </div>
+          <p>A refined, approachable, and technical geometry system designed to eliminate harsh boxiness while maintaining architectural precision.</p>
+        </div>
+
+        <div class="bg-shape-grid">
+          <!-- Small Radius: 8px -->
+          <article class="bg-shape-card">
+            <div class="bg-shape-preview bg-shape-preview--sm">
+              <span class="bg-shape-spec">8px</span>
+            </div>
+            <div class="bg-shape-meta">
+              <span class="bg-shape-token">--radius-sm</span>
+              <h3>Small Controls · 8px</h3>
+              <p>Badges, chips, counter badges (01, 02), switcher buttons, and small control elements.</p>
+              <ul class="bg-shape-list">
+                <li>.approach-list-num</li>
+                <li>.menu-toggle, .bg-menu-toggle</li>
+                <li>.bg-copy</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Medium Radius: 12px -->
+          <article class="bg-shape-card">
+            <div class="bg-shape-preview bg-shape-preview--md">
+              <span class="bg-shape-spec">12px</span>
+            </div>
+            <div class="bg-shape-meta">
+              <span class="bg-shape-token">--radius-md</span>
+              <h3>Inputs &amp; Pillars · 12px</h3>
+              <p>Text inputs, selects, textareas, validation feedback cards, and trust pillars.</p>
+              <ul class="bg-shape-list">
+                <li>.form-control</li>
+                <li>.form-feedback</li>
+                <li>.intro-pillars, .service-icon-wrap</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Large Radius: 16px -->
+          <article class="bg-shape-card">
+            <div class="bg-shape-preview bg-shape-preview--lg">
+              <span class="bg-shape-spec">16px</span>
+            </div>
+            <div class="bg-shape-meta">
+              <span class="bg-shape-token">--radius-lg</span>
+              <h3>Content Cards · 16px</h3>
+              <p>Standard content cards, service cards, product cards, and brand manual cards.</p>
+              <ul class="bg-shape-list">
+                <li>.service-item, .card--service</li>
+                <li>.product-item, .card--product</li>
+                <li>.bg-color-card, .bg-ui-card</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Capsule Buttons: 20-26px -->
+          <article class="bg-shape-card">
+            <div class="bg-shape-preview bg-shape-preview--btn">
+              <span class="bg-shape-spec">Capsule 20–26px</span>
+            </div>
+            <div class="bg-shape-meta">
+              <span class="bg-shape-token">--radius-btn</span>
+              <h3>Button Capsule · 20–26px</h3>
+              <p>Primary, secondary, and header actions. Continuous strongly rounded edges inspired by center-column reference.</p>
+              <ul class="bg-shape-list">
+                <li>.btn--sm, .header-cta (20px)</li>
+                <li>.btn, .btn--md (24px)</li>
+                <li>.btn--lg, .hero-btn-primary (26px)</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Pill Radius: 999px -->
+          <article class="bg-shape-card">
+            <div class="bg-shape-preview bg-shape-preview--pill">
+              <span class="bg-shape-spec">Pill (999px)</span>
+            </div>
+            <div class="bg-shape-meta">
+              <span class="bg-shape-token">--radius-pill</span>
+              <h3>Pill Geometry · 999px</h3>
+              <p>Status badges, workflow chips, eyebrow indicators, and floating pill controls.</p>
+              <ul class="bg-shape-list">
+                <li>.approach-badge</li>
+                <li>Status &amp; category pills</li>
+                <li>Interactive tags</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="bg-shape-guidance">
+          <article class="bg-usage-card good">
+            <h3>
+              <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              CTA &amp; Geometry Rules
+            </h3>
+            <ul>
+              <li><strong>Primary CTA Color Standard:</strong> Background is Electric Blue (<code>#009DFF</code>). Foreground text is Pure White (<code>#FFFFFF</code>). Foreground arrow icon is Pure White (<code>#FFFFFF</code>). Never use black/navy text on blue buttons.</li>
+              <li><strong>Controlled Deeper Blue Hover:</strong> On hover, primary CTA shifts smoothly to <code>#0082D6</code> with a subtle 2px lift, restrained shadow, and 3px right arrow slide.</li>
+              <li><strong>Capsule-Inspired Silhouette:</strong> Buttons feature continuous rounded ends (20px–26px radius) matching the center-column reference geometry while maintaining flat, clean, premium presentation (no red, gloss, 3D, or bevels).</li>
+              <li><strong>Content Isolation:</strong> Always apply <code>overflow: hidden</code> to cards with child images or background fills to prevent square corner bleeding.</li>
+            </ul>
+          </article>
+          <article class="bg-usage-card bad">
+            <h3>
+              <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+              </svg>
+              When NOT to Use Rounded Containers
+            </h3>
+            <ul>
+              <li><strong>Full-Width Sections:</strong> Full-viewport section bands (Hero, Services, Products, Footer) must remain edge-to-edge with straight 0px architectural boundaries.</li>
+              <li><strong>Cards are NOT Pills:</strong> Do not use pill/capsule geometry (999px) on content cards. Content cards use refined 16px–20px rounded rectangles.</li>
+              <li><strong>Avoid Deep Nesting:</strong> Never place a rounded card inside a card inside a card with conflicting radii.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Motion & Interaction Section (Phase 4.7 Animation Foundation) -->
+    <section class="bg-section bg-soft" id="motion-interaction">
+      <div class="bg-container">
+        <div class="bg-section-head">
+          <div>
+            <span class="eyebrow">08 / MOTION &amp; INTERACTION</span>
+            <h2>Motion &amp; Interaction Foundation</h2>
+          </div>
+          <p>Engineered, purposeful movement that reinforces technical authority and industrial security precision. Free of decoration or gimmicks.</p>
+        </div>
+
+        <!-- Motion Levels (3 Tiers) -->
+        <div class="bg-motion-levels">
+          <article class="bg-motion-level-card">
+            <span class="bg-motion-level-badge">LEVEL 1</span>
+            <h3>Micro-Interactions</h3>
+            <p>Immediate, tactile interface feedback powered entirely by native CSS transitions. Zero runtime script overhead.</p>
+            <ul class="bg-motion-list">
+              <li><strong>Scope:</strong> Buttons, links, arrows, form inputs, nav indicators</li>
+              <li><strong>Engine:</strong> Pure CSS transitions (<code>var(--transition-fast)</code>)</li>
+              <li><strong>Duration:</strong> 150ms–250ms (Micro to Fast)</li>
+              <li><strong>Trigger:</strong> User input (:hover, :focus-visible, :active)</li>
+            </ul>
+          </article>
+
+          <article class="bg-motion-level-card">
+            <span class="bg-motion-level-badge">LEVEL 2</span>
+            <h3>Entrance &amp; Reveal</h3>
+            <p>Coordinated, viewport-aware scroll entrance sequences powered by GSAP Core and ScrollTrigger.</p>
+            <ul class="bg-motion-list">
+              <li><strong>Scope:</strong> Headings, intro copy, card grids, hardware panels</li>
+              <li><strong>Engine:</strong> GSAP Core + ScrollTrigger (<code>once: true</code>)</li>
+              <li><strong>Duration:</strong> 350ms–500ms (Standard)</li>
+              <li><strong>Trigger:</strong> Natural viewport entry (never scrubbed by default)</li>
+            </ul>
+          </article>
+
+          <article class="bg-motion-level-card">
+            <span class="bg-motion-level-badge">LEVEL 3</span>
+            <h3>Storytelling &amp; Showcase</h3>
+            <p>Orchestrated multi-layer narrative sequences reserved strictly for high-impact brand moments.</p>
+            <ul class="bg-motion-list">
+              <li><strong>Scope:</strong> Hero opening sequence, interactive workflow walkthroughs</li>
+              <li><strong>Engine:</strong> GSAP Timelines with controlled sequencing</li>
+              <li><strong>Duration:</strong> 800ms–1200ms (Storytelling)</li>
+              <li><strong>Trigger:</strong> Phase-gated approval (strictly locked in Phase 4.7)</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Motion Tokens Specimen Grid -->
+        <div class="bg-motion-tokens-grid">
+          <!-- Duration Tokens -->
+          <article class="bg-motion-token-card">
+            <h3>Duration Scale</h3>
+            <div class="bg-token-rows">
+              <div class="bg-token-row">
+                <code>--motion-duration-micro</code>
+                <span class="bg-token-val">180ms</span>
+                <span class="bg-token-desc">Micro feedback, icons, arrows</span>
+              </div>
+              <div class="bg-token-row">
+                <code>--motion-duration-fast</code>
+                <span class="bg-token-val">250ms</span>
+                <span class="bg-token-desc">Button hovers, drawer toggle</span>
+              </div>
+              <div class="bg-token-row">
+                <code>--motion-duration-standard</code>
+                <span class="bg-token-val">400ms</span>
+                <span class="bg-token-desc">Standard scroll reveals, cards</span>
+              </div>
+              <div class="bg-token-row">
+                <code>--motion-duration-slow</code>
+                <span class="bg-token-val">650ms</span>
+                <span class="bg-token-desc">Complex panels, section transitions</span>
+              </div>
+              <div class="bg-token-row">
+                <code>--motion-duration-story</code>
+                <span class="bg-token-val">950ms</span>
+                <span class="bg-token-desc">Hero sequence branding moments</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Easing Tokens -->
+          <article class="bg-motion-token-card">
+            <h3>Easing Vocabulary</h3>
+            <div class="bg-token-rows">
+              <div class="bg-token-row">
+                <code>power2.out</code>
+                <span class="bg-token-val">Standard</span>
+                <span class="bg-token-desc">Natural deceleration for general UI</span>
+              </div>
+              <div class="bg-token-row">
+                <code>power3.out</code>
+                <span class="bg-token-val">Entrance</span>
+                <span class="bg-token-desc">Decisive stop for arriving elements</span>
+              </div>
+              <div class="bg-token-row">
+                <code>power2.in</code>
+                <span class="bg-token-val">Exit</span>
+                <span class="bg-token-desc">Prompt departure without lingering</span>
+              </div>
+              <div class="bg-token-row">
+                <code>power2.inOut</code>
+                <span class="bg-token-val">Emphasis</span>
+                <span class="bg-token-desc">Symmetrical focus for toggle cues</span>
+              </div>
+              <div class="bg-token-row bg-token-row--prohibited">
+                <code>bounce / elastic</code>
+                <span class="bg-token-val bg-token-val--prohibited">PROHIBITED</span>
+                <span class="bg-token-desc">No bouncy cartoon motion permitted</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Motion Guardrails & Governance Guidance -->
+        <div class="bg-shape-guidance">
+          <article class="bg-usage-card good">
+            <h3>
+              <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Motion Rules &amp; Engineering Guardrails
+            </h3>
+            <ul>
+              <li><strong>Movement Ceilings:</strong> Entrance translations are strictly constrained to 12px–40px (<code>--motion-distance-sm</code> to <code>--motion-distance-lg</code>). Never use 100px+ slides.</li>
+              <li><strong>Interactive Scale Limits:</strong> Scale is restrained to 0.98 (active compression) and 1.02 (hover lift). Maximum scale ceiling is 1.03.</li>
+              <li><strong>Stagger Cadence:</strong> Stagger delays range between 0.05s and 0.12s, ensuring content is revealed quickly without making the user wait.</li>
+              <li><strong>Performance Priority:</strong> Strictly animate only GPU-composited properties: <code>transform</code> and <code>opacity</code>. Never animate <code>width</code>, <code>height</code>, <code>top</code>, <code>left</code>, or margins.</li>
+              <li><strong>No Scrub by Default:</strong> Reveals trigger once and play forward to completion (<code>play none none none</code>). Scrub is reserved strictly for continuous spatial timelines.</li>
+            </ul>
+          </article>
+
+          <article class="bg-usage-card bad">
+            <h3>
+              <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+              </svg>
+              Accessibility &amp; Failure Safety Standards
+            </h3>
+            <ul>
+              <li><strong>Mandatory Reduced Motion:</strong> When <code>prefers-reduced-motion: reduce</code> is active, all entrance animations, transforms, and scrub effects are skipped instantly. Content remains immediate and fully visible.</li>
+              <li><strong>No-JS / No-GSAP Safety:</strong> Never style elements with initial CSS <code>opacity: 0</code>. All markup remains 100% visible in the DOM by default. If GSAP fails or is blocked by network policies, the website operates seamlessly.</li>
+              <li><strong>No Scroll-Jacking:</strong> No hijacking native browser scroll dynamics, no pinning without explicit phase approval, and no continuous reverse replaying.</li>
+              <li><strong>Responsive Differentiation:</strong> Mobile devices (≤768px) receive shorter movement distances (8–16px) and reduced complexity via <code>gsap.matchMedia()</code>.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Approved Motion Pattern 01: Header & Navigation Motion -->
+        <div class="bg-pattern-block">
+          <div class="bg-pattern-header">
+            <span class="bg-pattern-tag">APPROVED PATTERN 01</span>
+            <h3>Header &amp; Navigation Motion Specification</h3>
+            <p>Orchestrated sequence, GPU-accelerated micro-interactions, responsive mobile drawer coordination, and failure-proof fallbacks for the PROVITECH navigation architecture.</p>
+          </div>
+
+          <div class="bg-pattern-spec-grid">
+            <article class="bg-spec-card">
+              <h4>1. Desktop Entrance Timeline</h4>
+              <ul>
+                <li><strong>Sequence:</strong> Topline (0.25s) &rarr; Header Container (0.35s) &rarr; Brand Logo (0.25s) &rarr; Desktop Nav Links (0.25s, 0.05s stagger) &rarr; Header CTA (0.25s).</li>
+                <li><strong>Easing:</strong> <code>power3.out</code> (decisive deceleration, zero overshoot).</li>
+                <li><strong>Movement:</strong> 8px–10px Y-axis settling (strictly within <code>--motion-distance-sm</code>).</li>
+                <li><strong>Total Duration:</strong> ~750ms complete choreographed entrance.</li>
+                <li><strong>Cleanup:</strong> <code>clearProps: 'all'</code> restores native CSS styling post-sequence.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>2. Micro-Interactions &amp; States</h4>
+              <ul>
+                <li><strong>Nav Link Hover:</strong> GPU <code>scaleX(0) &rarr; scaleX(1)</code> underline with <code>transform-origin: left center</code>. 250ms duration.</li>
+                <li><strong>Active Indicator:</strong> Persistent <code>scaleX(1)</code> underline on active page/route link.</li>
+                <li><strong>CTA Hover:</strong> 1–2px upward lift, 4px arrow right translate, elevated shadow.</li>
+                <li><strong>CTA Active / Press:</strong> <code>scale(0.98)</code> tactile press compression.</li>
+                <li><strong>Header Scroll:</strong> Discrete <code>.is-scrolled</code> class at &gt;15px scroll for elevated shadow and subtle border tint without layout recalculation.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>3. Mobile Drawer &amp; Button</h4>
+              <ul>
+                <li><strong>Toggle Button:</strong> Smooth rotational fade between hamburger lines and close X.</li>
+                <li><strong>Drawer Entrance:</strong> Container fades and slides (280ms, <code>power3.out</code>) with staggered nav links (0.045s stagger) followed by mobile CTA.</li>
+                <li><strong>Drawer Exit:</strong> Prompt exit (200ms, <code>power2.in</code>).</li>
+                <li><strong>Race Condition Protection:</strong> Pending tweens killed immediately on rapid toggle; inline styles wiped on resize &gt;900px.</li>
+                <li><strong>Accessibility:</strong> Full <code>aria-expanded</code> sync, body scroll lock, and Escape key focus return.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>4. Reduced Motion &amp; Fallback</h4>
+              <ul>
+                <li><strong>Reduced Motion:</strong> Entrance translations, link staggers, and CTA lift skipped instantly under <code>prefers-reduced-motion: reduce</code>.</li>
+                <li><strong>GSAP Failure / No-Script:</strong> Header starts 100% visible in DOM. Pure CSS drawer transition applies automatically via <code>html:not([data-motion="gsap"])</code>.</li>
+                <li><strong>Responsive Isolation:</strong> Desktop stagger timelines deactivated on mobile viewports via <code>gsap.matchMedia()</code>.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive Navigation Motion Specimen -->
+          <div class="bg-nav-specimen">
+            <div class="bg-specimen-toolbar">
+              <span class="bg-specimen-label">INTERACTIVE SPECIMEN · LIVE NAVIGATION COMPONENTS</span>
+              <button type="button" class="bg-specimen-btn" id="btn-replay-nav-motion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                Replay Entrance
+              </button>
+            </div>
+
+            <div class="bg-specimen-stage" id="nav-specimen-stage">
+              <div class="bg-specimen-nav">
+                <a href="#specimen" class="bg-specimen-link is-active">Overview</a>
+                <a href="#specimen" class="bg-specimen-link">Features</a>
+                <a href="#specimen" class="bg-specimen-link">Architecture</a>
+                <a href="#specimen" class="bg-specimen-link">Compliance</a>
+              </div>
+              <a href="#specimen" class="header-cta bg-specimen-cta">
+                LET'S TALK
+                <svg class="icon icon--arrow-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Approved Motion Pattern 02: Hero Motion -->
+        <div class="bg-pattern-block">
+          <div class="bg-pattern-header">
+            <span class="bg-pattern-tag">APPROVED PATTERN 02</span>
+            <h3>Hero Motion &amp; Interactive Elements Specification</h3>
+            <p>Cinematic opening sequence, two-stage headline reveal, pointer-based CCTV depth parallax, and discrete scroll depth separation for the PROVITECH primary hero interface.</p>
+          </div>
+
+          <div class="bg-pattern-spec-grid">
+            <article class="bg-spec-card">
+              <h4>1. Opening Sequence &amp; Storytelling</h4>
+              <ul>
+                <li><strong>Header Continuity:</strong> Initiates at 0.15s, overlapping naturally with the settling Header for one cohesive experience without dead air.</li>
+                <li><strong>Visual Establishment:</strong> CCTV image establishes with restrained scale (<code>1.03 &rarr; 1</code>) and opacity (<code>0.85 &rarr; 1</code>) over 1.1s. Dark navy overlay settles smoothly.</li>
+                <li><strong>Eyebrow &amp; Accent:</strong> Electric Blue kicker line expands via <code>scaleX(0 &rarr; 1)</code> (0.35s) followed by kicker text reveal (0.45s).</li>
+                <li><strong>Two-Stage Headline:</strong> Line 1 ("See more.") reveals at 0.46s (0.55s duration); Line 2 ("Worry less.") follows at 0.64s with Electric Blue emphasis.</li>
+                <li><strong>Paragraph &amp; CTAs:</strong> Supporting copy enters at 0.80s, followed by Primary CTA at 0.92s and Secondary CTA at 1.02s.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>2. Interactive Dynamics &amp; Depth</h4>
+              <ul>
+                <li><strong>Desktop Pointer Parallax:</strong> CCTV image shifts opposite cursor position via performant <code>gsap.quickTo</code>, strictly capped at &plusmn;6px displacement. Fine pointer only (<code>(pointer: fine)</code>).</li>
+                <li><strong>Scroll Exit Depth:</strong> Lightweight ScrollTrigger gently lifts content 24px (<code>y: -24</code>) as user scrolls away; zero section pinning, zero scroll-jacking.</li>
+                <li><strong>Scroll Cue Loop:</strong> Subtle 3px vertical arrow bob loop (2.0s duration, gentle ease). Automatically paused via ScrollTrigger when scrolled past Hero to conserve CPU cycles.</li>
+                <li><strong>Button Micro-Feedback:</strong> 2px lift, 4px arrow right glide, tactile 0.98 active press scale.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>3. Responsive Adaptation</h4>
+              <ul>
+                <li><strong>Mobile Viewports (&le;768px):</strong> Simplified single-axis translations (8px–12px), faster timings (0.38s–0.42s), disabled image scale, zero pointer parallax.</li>
+                <li><strong>Tablet Viewports (769px–900px):</strong> Moderate 16px entrance movement; pointer parallax disabled on touch-first displays.</li>
+                <li><strong>Clean Breakpoints:</strong> Controlled via <code>gsap.matchMedia()</code>; all inline styles purged on resize to prevent broken layouts.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>4. Failure Safety &amp; Reduced Motion</h4>
+              <ul>
+                <li><strong>Mandatory Reduced Motion:</strong> When <code>prefers-reduced-motion: reduce</code> is active, all entrance transforms, CCTV scaling, pointer parallax, and scroll cues are instantly bypassed. Content renders immediately in final resting state.</li>
+                <li><strong>No-GSAP / No-JS Safety:</strong> Hero markup starts 100% visible in the DOM. All CTAs and links remain fully operational without JavaScript.</li>
+                <li><strong>Scroll Restoration Safety:</strong> If page refreshes mid-page or bottom (<code>scrollY &gt; 150px</code>), entrance sequence jumps directly to completion to prevent off-screen recalculation jank.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive Hero Motion Specimen -->
+          <div class="bg-hero-specimen">
+            <div class="bg-specimen-toolbar">
+              <span class="bg-specimen-label">INTERACTIVE SPECIMEN · HERO OPENING SEQUENCE</span>
+              <button type="button" class="bg-specimen-btn" id="btn-replay-hero-motion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                Replay Motion
+              </button>
+            </div>
+
+            <div class="bg-hero-stage" id="hero-specimen-stage">
+              <div class="bg-hero-stage-content">
+                <div class="bg-specimen-kicker">
+                  <span class="bg-specimen-kicker-line"></span>
+                  <span class="bg-specimen-kicker-text">SECURITY, BUILT AROUND YOU</span>
+                </div>
+                <h3 class="bg-specimen-title">
+                  <span class="bg-specimen-title-line">See more.</span>
+                  <span class="bg-specimen-title-line bg-specimen-accent"><em>Worry less.</em></span>
+                </h3>
+                <p class="bg-specimen-desc">Smarter security and technology solutions to help protect your people, property and peace of mind.</p>
+                <div class="bg-specimen-actions">
+                  <button type="button" class="btn btn--primary hero-btn-primary bg-specimen-primary-btn">
+                    BOOK A FREE CONSULTATION
+                    <svg class="icon icon--arrow-right" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </button>
+                  <span class="hero-text-link bg-specimen-link-cta">
+                    Explore solutions
+                    <svg class="icon icon--arrow-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Approved Motion Pattern 03: About + Trust Motion -->
+        <div class="bg-pattern-block">
+          <div class="bg-pattern-header">
+            <span class="bg-pattern-tag">APPROVED PATTERN 03</span>
+            <h3>About + Trust Motion Specification</h3>
+            <p>Coordinated narrative reveal, architectural trust pillar stagger, restrained card micro-interactions, and responsive layout continuity for the PROVITECH company story.</p>
+          </div>
+
+          <div class="bg-pattern-spec-grid">
+            <article class="bg-spec-card">
+              <h4>1. ScrollTrigger &amp; Story Progression</h4>
+              <ul>
+                <li><strong>Trigger Strategy:</strong> Viewport-aware `#about` entry (<code>start: 'top 82%'</code>, <code>once: true</code>). Triggers once, completes decisively, and remains visible without reverse scrub.</li>
+                <li><strong>Orchestrated Flow:</strong> Eyebrow (0.40s) &rarr; Heading (0.55s, 0.12s offset) &rarr; Body Copy (0.45s, 0.08s stagger) &rarr; Trust Pillars Container (0.40s) &rarr; Individual Pillars (0.40s, 0.08s stagger) &rarr; Text Link (0.38s).</li>
+                <li><strong>Decisive Easing:</strong> <code>power3.out</code> deceleration; zero bounce, elastic, or character flying.</li>
+                <li><strong>Property Cleanup:</strong> <code>clearProps: 'transform,opacity'</code> executed upon completion to restore pure native CSS rendering.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>2. Hierarchy &amp; Pillar Coordination</h4>
+              <ul>
+                <li><strong>Natural Reading Order:</strong> Desktop 2-column grid reveals left-to-right, top-to-bottom. Mobile single column reveals cleanly top-to-bottom.</li>
+                <li><strong>Coordinated Group:</strong> Four verified architectural pillars (Commercial Focus, Dedicated Local Engineering, Clean Architectural Cabling, Unified System Management) reveal with balanced 0.08s stagger.</li>
+                <li><strong>Zero Speculative Claims:</strong> No fake statistics, no animated counters, no unverified certifications, and no decorative particle grids.</li>
+                <li><strong>Editorial Restraint:</strong> Copy reveals smoothly without word-by-word fragmentation or typewriter gimmicks.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>3. Micro-Interactions &amp; Geometry</h4>
+              <ul>
+                <li><strong>Subtle Card Hover:</strong> 2px upward lift (<code>translateY(-2px)</code>), subtle brand tint (<code>rgba(0, 157, 255, 0.05)</code>), and 1.08 icon scale over 200ms (<code>--transition-fast</code>).</li>
+                <li><strong>Non-Clickable Rule:</strong> Explicit <code>cursor: default</code> maintained; never misleads visitors into treating informational trust badges as interactive links or buttons.</li>
+                <li><strong>Radius Discipline:</strong> Preserves approved Phase 4.6 geometry: 12px container radius (<code>--radius-md</code>) and 8px inner item radius (<code>--radius-sm</code>).</li>
+                <li><strong>Visual Breathing Space:</strong> Clear architectural pacing between Hero and About with zero competing scroll-jacking or section pinning.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>4. Accessibility, Responsive &amp; Fallbacks</h4>
+              <ul>
+                <li><strong>Reduced Motion:</strong> Entrance translations and pillar staggers are completely bypassed under <code>prefers-reduced-motion: reduce</code>. Content renders immediately in resting state.</li>
+                <li><strong>No-JS / GSAP Failure:</strong> All markup starts 100% visible in the DOM. Zero reliance on JavaScript for readability.</li>
+                <li><strong>Responsive Adaptation:</strong> Shorter vertical distances (10px–12px) and faster timings (0.38s) on mobile (&le;768px); zero horizontal translation.</li>
+                <li><strong>Services Boundary:</strong> Strict phase boundary observed; zero GSAP bindings or transforms applied to Services or subsequent sections.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive About + Trust Motion Specimen -->
+          <div class="bg-about-specimen">
+            <div class="bg-specimen-toolbar">
+              <span class="bg-specimen-label">INTERACTIVE SPECIMEN · ABOUT &amp; TRUST STORY SEQUENCE</span>
+              <button type="button" class="bg-specimen-btn" id="btn-replay-about-motion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                Replay Motion
+              </button>
+            </div>
+
+            <div class="bg-about-stage" id="about-specimen-stage">
+              <div class="bg-about-stage-grid">
+                <div class="bg-about-stage-title">
+                  <span class="eyebrow bg-specimen-eyebrow">YOUR LOCAL SECURITY PARTNER</span>
+                  <h3 class="bg-specimen-about-h3">Technology that makes you feel <span>right at home.</span></h3>
+                </div>
+                <div class="bg-about-stage-copy">
+                  <p class="bg-specimen-about-p">ProviTech Integrators brings dependable security and technology together. From a single camera to a complete business system, we make it easier to feel confident about what matters.</p>
+                  <p class="bg-specimen-about-p">Based in Surat, Gujarat, our team helps you choose, install and maintain solutions that fit your needs.</p>
+
+                  <div class="bg-about-specimen-pillars">
+                    <div class="bg-about-specimen-pillar">
+                      <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                      <span>Commercial &amp; Enterprise Focus</span>
+                    </div>
+                    <div class="bg-about-specimen-pillar">
+                      <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                      <span>Dedicated Local Engineering</span>
+                    </div>
+                    <div class="bg-about-specimen-pillar">
+                      <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                      <span>Clean Architectural Cabling</span>
+                    </div>
+                    <div class="bg-about-specimen-pillar">
+                      <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                      <span>Unified System Management</span>
+                    </div>
+                  </div>
+
+                  <span class="text-link bg-specimen-about-link">
+                    Get to know us
+                    <svg class="icon icon--arrow-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Approved Motion Pattern 04: Services Interactive Motion -->
+        <div class="bg-pattern-block">
+          <div class="bg-pattern-header">
+            <span class="bg-pattern-tag">APPROVED PATTERN 04</span>
+            <h3>Services Interactive Motion Specification</h3>
+            <p>Orchestrated section entrance, left-to-right service card stagger, restrained micro-interactions (&le;3px hover lift, 1.04 icon scale, arrow translation), and responsive layout continuity for PROVITECH's capability presentation.</p>
+          </div>
+
+          <div class="bg-pattern-spec-grid">
+            <article class="bg-spec-card">
+              <h4>1. ScrollTrigger &amp; Entrance Stagger</h4>
+              <ul>
+                <li><strong>Trigger Placement:</strong> Viewport-aware `#services` entry (<code>start: 'top 80%'</code>, <code>once: true</code>, <code>fastScrollEnd: true</code>). Begins naturally as Services approaches viewport; plays once, stays visible.</li>
+                <li><strong>Choreographed Sequence:</strong> Section Eyebrow (0.35s) &rarr; Section Heading (0.45s, 0.10s offset) &rarr; Supporting Copy (0.40s, 0.22s offset) &rarr; Coordinated Service Items Grid (0.45s, 0.08s stagger, 0.35s offset).</li>
+                <li><strong>Decisive Easing:</strong> Standard <code>power3.out</code> deceleration; zero 3D flipping, bounce, or character fragmentation.</li>
+                <li><strong>Property Cleanup:</strong> <code>clearProps: 'transform,opacity'</code> executed upon completion to restore pure native CSS layout.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>2. Reading Order &amp; Layout Hierarchy</h4>
+              <ul>
+                <li><strong>Natural Reading Order:</strong> Desktop multi-column grid reveals strictly Left &rarr; Right, then next row. Mobile single-column reveals cleanly Top &rarr; Bottom.</li>
+                <li><strong>Card Geometry:</strong> Preserves approved 16&ndash;20px radius (<code>--radius-lg</code>) and Electric Blue accents; cards never mutate into pills or sharp boxes.</li>
+                <li><strong>Phase Boundaries:</strong> Strict isolation observed; zero GSAP bindings or transforms applied to Approach (Phase 4.12), Products (Phase 4.13), or Contact/Footer (Phase 4.14).</li>
+                <li><strong>Editorial Integrity:</strong> Existing service copy, naming, order, and iconography strictly preserved without speculative additions.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>3. Micro-Interactions &amp; Hardware Dynamics</h4>
+              <ul>
+                <li><strong>Restrained Card Hover:</strong> Upward lift capped at 3px (<code>translateY(-3px)</code>) with subtle border and elevation refinement over 200ms (<code>--transition-fast</code>).</li>
+                <li><strong>Icon Behavior:</strong> Controlled scale <code>1 &rarr; 1.04</code> on hover; no continuous spinning, pulse, or glowing loops.</li>
+                <li><strong>Arrow Indicator:</strong> Directional icon moves <code>4px</code> to the right on card hover, matching established Hero/Header CTA interaction language.</li>
+                <li><strong>Interactive vs Informational:</strong> Clear clickable communication via <code>:focus-visible</code> (Electric Blue outline offset 3px); no deceptive cursor states.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>4. Accessibility, Fast-Scroll &amp; Fallbacks</h4>
+              <ul>
+                <li><strong>Reduced Motion:</strong> All entrance translations, staggers, and hover lifts completely disabled under <code>prefers-reduced-motion: reduce</code>. Content renders immediately in resting state.</li>
+                <li><strong>Fast Scroll Protection:</strong> Rapid scrolling instantly resolves the sequence via <code>fastScrollEnd: true</code> and position checks; zero stuck transforms or invisible cards.</li>
+                <li><strong>No-JS / GSAP Failure:</strong> All cards and text begin 100% visible in HTML/CSS. Failure leaves services fully readable and interactive.</li>
+                <li><strong>Resize Cleanup:</strong> Managed via <code>gsap.matchMedia()</code>; viewport transitions preserve animated state without duplicate triggers or layout jumps.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive Services Motion Specimen -->
+          <div class="bg-services-specimen">
+            <div class="bg-specimen-toolbar">
+              <span class="bg-specimen-label">INTERACTIVE SPECIMEN · SERVICES PRESENTATION SEQUENCE</span>
+              <button type="button" class="bg-specimen-btn" id="btn-replay-services-motion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                Replay Motion
+              </button>
+            </div>
+
+            <div class="bg-services-stage" id="services-specimen-stage">
+              <div class="bg-services-stage-header">
+                <span class="eyebrow bg-specimen-eyebrow">WHAT WE DO</span>
+                <h3 class="bg-specimen-services-h3">Security, <span>made simple.</span></h3>
+                <p class="bg-specimen-services-p">We design, install and look after integrated systems that keep your home or business secure.</p>
+              </div>
+
+              <div class="bg-specimen-services-grid">
+                <div class="bg-specimen-service-item">
+                  <div class="bg-specimen-service-icon">
+                    <svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path>
+                      <rect x="2" y="6" width="14" height="12" rx="2"></rect>
+                    </svg>
+                  </div>
+                  <h4 class="bg-specimen-service-title">CCTV Surveillance</h4>
+                  <p class="bg-specimen-service-desc">High-definition IP cameras, night vision and remote monitoring so you can see what is happening, anywhere.</p>
+                  <span class="bg-specimen-service-arrow" aria-hidden="true">
+                    <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </span>
+                </div>
+
+                <div class="bg-specimen-service-item">
+                  <div class="bg-specimen-service-icon">
+                    <svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                      <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                      <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                      <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                  </div>
+                  <h4 class="bg-specimen-service-title">Networking &amp; Structured Cabling</h4>
+                  <p class="bg-specimen-service-desc">Robust data networks, neat patch panels and reliable Wi-Fi coverage designed for zero downtime.</p>
+                  <span class="bg-specimen-service-arrow" aria-hidden="true">
+                    <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </span>
+                </div>
+
+                <div class="bg-specimen-service-item">
+                  <div class="bg-specimen-service-icon">
+                    <svg class="icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                      <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                  </div>
+                  <h4 class="bg-specimen-service-title">Access Control</h4>
+                  <p class="bg-specimen-service-desc">Keyless entry, biometric scanners and smart locks giving you complete control over who enters your premises.</p>
+                  <span class="bg-specimen-service-arrow" aria-hidden="true">
+                    <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Approved Motion Pattern 05: Approach / Process Motion -->
+        <div class="bg-pattern-block">
+          <div class="bg-pattern-header">
+            <span class="bg-pattern-tag">APPROVED PATTERN 05</span>
+            <h3>Approach / Process Motion Specification</h3>
+            <p>Methodical technical workflow reveal, sequential 01 &rarr; 02 &rarr; 03 process step progression, restrained micro-interactions (&le;2px hover lift, 1.04 badge scale), and responsive layout continuity for PROVITECH's customer journey.</p>
+          </div>
+
+          <div class="bg-pattern-spec-grid">
+            <article class="bg-spec-card">
+              <h4>1. ScrollTrigger &amp; Process Progression</h4>
+              <ul>
+                <li><strong>Trigger Placement:</strong> Viewport-aware `#approach` entry (<code>start: 'top 80%'</code>, <code>once: true</code>, <code>fastScrollEnd: true</code>). Triggers once, completes decisively, and never replays on reverse scroll.</li>
+                <li><strong>Coordinated Progression:</strong> Workflow Photography (0.50s) + Floating Badge (0.35s) &rarr; Section Eyebrow (0.35s) &rarr; Section Heading (0.48s, 0.14s offset) &rarr; Supporting Copy (0.40s, 0.26s offset) &rarr; Sequential Process Steps 01&ndash;03 (0.45s, 0.09s stagger, 0.38s offset) &rarr; Text Link CTA (0.35s, 0.65s offset).</li>
+                <li><strong>Decisive Easing:</strong> Approved <code>power3.out</code> deceleration; zero elastic bounce, spinning numbers, or character splitting.</li>
+                <li><strong>Property Cleanup:</strong> <code>clearProps: 'transform,opacity'</code> executed upon completion to restore pure native CSS layout.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>2. Reading Order &amp; Layout Hierarchy</h4>
+              <ul>
+                <li><strong>Step &rarr; Progress &rarr; Outcome:</strong> Steps strictly enter in numerical visual sequence: 01 (Understand) &rarr; 02 (Install) &rarr; 03 (Stay supported).</li>
+                <li><strong>Connector Discipline:</strong> Clean existing border separators preserved; zero artificial timeline graphics or animated pipelines invented (Rule 15).</li>
+                <li><strong>Phase Boundaries:</strong> Strict isolation observed; zero GSAP bindings or transforms applied to Products (Phase 4.13) or Contact/Footer (Phase 4.14).</li>
+                <li><strong>Editorial Integrity:</strong> Existing process copy, step names, numbers, and layout strictly preserved without speculative additions.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>3. Micro-Interactions &amp; Hardware Dynamics</h4>
+              <ul>
+                <li><strong>Restrained Step Hover:</strong> Upward lift capped at 2px (<code>translateY(-2px)</code>) with subtle background tint (<code>rgba(0, 157, 255, 0.02)</code>) over 200ms (<code>--transition-fast</code>).</li>
+                <li><strong>Number Badge Dynamics:</strong> Subtle scale <code>1 &rarr; 1.04</code> with border color refinement upon step hover; continuous pulse, glow, or upward counting strictly prohibited.</li>
+                <li><strong>Photography Hover:</strong> Restrained image scale <code>1.03</code> on hover with overflow clipping and 20px radius geometry preserved.</li>
+                <li><strong>Informational Discipline:</strong> Process steps maintain <code>cursor: default</code>; only genuine anchor links (e.g., "Start a conversation") are interactive with 4px arrow right translation.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>4. Accessibility, Fast-Scroll &amp; Fallbacks</h4>
+              <ul>
+                <li><strong>Reduced Motion:</strong> All entrance translations, step staggers, and hover lifts completely disabled under <code>prefers-reduced-motion: reduce</code>. Content renders immediately in resting state.</li>
+                <li><strong>Fast Scroll Protection:</strong> Rapid scrolling instantly resolves the sequence via <code>fastScrollEnd: true</code> and position checks; zero stuck transforms or invisible steps.</li>
+                <li><strong>No-JS / GSAP Failure:</strong> All steps, image, and text begin 100% visible in HTML/CSS. Failure leaves process steps fully readable and layout intact.</li>
+                <li><strong>Resize Cleanup:</strong> Managed via <code>gsap.matchMedia()</code>; viewport transitions preserve animated state without duplicate triggers or layout jumps.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive Approach / Process Motion Specimen -->
+          <div class="bg-approach-specimen">
+            <div class="bg-specimen-toolbar">
+              <span class="bg-specimen-label">INTERACTIVE SPECIMEN · PROCESS PROGRESSION SEQUENCE</span>
+              <button type="button" class="bg-specimen-btn" id="btn-replay-approach-motion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                Replay Motion
+              </button>
+            </div>
+
+            <div class="bg-approach-stage" id="approach-specimen-stage">
+              <div class="bg-approach-stage-header">
+                <span class="eyebrow bg-specimen-eyebrow">A BETTER WAY TO PROTECT</span>
+                <h3 class="bg-specimen-approach-h3">From first visit to <span>final check.</span></h3>
+                <p class="bg-specimen-approach-p">Good security starts with listening. We take time to understand your space and recommend a solution that works in the real world.</p>
+              </div>
+
+              <div class="bg-specimen-approach-list">
+                <div class="bg-specimen-approach-item">
+                  <span class="bg-specimen-approach-num">01</span>
+                  <div class="bg-specimen-approach-body">
+                    <strong>Understand your needs</strong>
+                    <p>Practical advice tailored to your property.</p>
+                  </div>
+                </div>
+
+                <div class="bg-specimen-approach-item">
+                  <span class="bg-specimen-approach-num">02</span>
+                  <div class="bg-specimen-approach-body">
+                    <strong>Install with care</strong>
+                    <p>Clean, considered work by experienced technicians.</p>
+                  </div>
+                </div>
+
+                <div class="bg-specimen-approach-item">
+                  <span class="bg-specimen-approach-num">03</span>
+                  <div class="bg-specimen-approach-body">
+                    <strong>Stay supported</strong>
+                    <p>We're here for maintenance and the questions ahead.</p>
+                  </div>
+                </div>
+              </div>
+
+              <span class="text-link bg-specimen-approach-link">
+                Start a conversation
+                <svg class="icon icon--arrow-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Approved Motion Pattern 06: Products Motion -->
+        <div class="bg-pattern-block">
+          <div class="bg-pattern-header">
+            <span class="bg-pattern-tag">APPROVED PATTERN 06</span>
+            <h3>Products Interactive Motion Specification</h3>
+            <p>Technical product-discovery experience, coordinated collection entrance, restrained micro-interactions (&le;3px card lift, 1.04 icon scale, 4px arrow slide), and accessible focus states for PROVITECH's hardware coverage.</p>
+          </div>
+
+          <div class="bg-pattern-spec-grid">
+            <article class="bg-spec-card">
+              <h4>1. ScrollTrigger &amp; Collection Entrance</h4>
+              <ul>
+                <li><strong>Trigger Placement:</strong> Viewport-aware `.products` entry (<code>start: 'top 80%'</code>, <code>once: true</code>, <code>fastScrollEnd: true</code>). Triggers once, completes decisively, and never replays on reverse scroll.</li>
+                <li><strong>Coordinated Progression:</strong> Section Eyebrow (0.35s) &rarr; Section Heading (0.48s, 0.10s offset) &rarr; Supporting Copy (0.40s, 0.22s offset) &rarr; Product Cards Collection (0.45s, 0.08s stagger, 0.35s offset).</li>
+                <li><strong>Decisive Easing:</strong> Approved <code>power3.out</code> deceleration; zero elastic bounce, spinning numbers, or character splitting.</li>
+                <li><strong>Property Cleanup:</strong> <code>clearProps: 'transform,opacity'</code> executed upon completion to restore pure native CSS layout.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>2. Reading Order &amp; Layout Consistency</h4>
+              <ul>
+                <li><strong>Natural Reading Order:</strong> Cards strictly reveal in left-to-right reading sequence across all 4 items: 01 CCTV &rarr; 02 Networking &rarr; 03 Fire Alarm &rarr; 04 Access Control.</li>
+                <li><strong>Consistent Entrance:</strong> All cards share the same entrance language; no disjointed card-by-card effects or randomized staggering.</li>
+                <li><strong>Editorial Integrity:</strong> Existing product names, solution numbers, SVG icons, and descriptions preserved without invented prices, ratings, or counters ("50+ products").</li>
+                <li><strong>Phase Boundaries:</strong> Strict isolation observed; zero GSAP bindings or transforms applied to Contact or Footer (Phase 4.14).</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>3. Micro-Interactions &amp; Hardware Dynamics</h4>
+              <ul>
+                <li><strong>Restrained Card Lift:</strong> Upward lift capped at 3px (<code>translateY(-3px)</code>) with soft shadow &amp; border refinement over 200ms (<code>--transition-fast</code>).</li>
+                <li><strong>Icon Scale Dynamics:</strong> Subtle SVG scale <code>1 &rarr; 1.04</code> over 200ms with container overflow clipping preserving rounded geometry.</li>
+                <li><strong>CTA Arrow Translation:</strong> Action button arrow translates <code>translateX(4px)</code> on hover and focus matching global CTA standards.</li>
+                <li><strong>Accessible Focus:</strong> Interactive cards provide an Electric Blue <code>:focus-visible</code> ring (<code>2px solid var(--color-primary)</code> with 3px offset) for keyboard users.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>4. Accessibility, Fast-Scroll &amp; Fallbacks</h4>
+              <ul>
+                <li><strong>Reduced Motion:</strong> All entrance translations, card staggers, and hover lifts completely disabled under <code>prefers-reduced-motion: reduce</code>. Content renders immediately in resting state.</li>
+                <li><strong>Fast Scroll Protection:</strong> Rapid scrolling instantly resolves the sequence via <code>fastScrollEnd: true</code> and position checks; zero stuck transforms or invisible cards.</li>
+                <li><strong>No-JS / GSAP Failure:</strong> All cards, copy, icons, and links begin 100% visible in HTML/CSS. Failure leaves product cards fully readable and layout intact.</li>
+                <li><strong>Resize Cleanup:</strong> Managed via <code>gsap.matchMedia()</code>; viewport transitions preserve animated state without duplicate triggers or layout jumps.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive Products Motion Specimen -->
+          <div class="bg-products-specimen">
+            <div class="bg-specimen-toolbar">
+              <span class="bg-specimen-label">INTERACTIVE SPECIMEN · PRODUCT GRID COLLECTION</span>
+              <button type="button" class="bg-specimen-btn" id="btn-replay-products-motion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                Replay Motion
+              </button>
+            </div>
+
+            <div class="bg-products-stage" id="products-specimen-stage">
+              <div class="bg-products-stage-header">
+                <span class="eyebrow bg-specimen-eyebrow">PROTECT WHAT MATTERS</span>
+                <h3 class="bg-specimen-products-h3">One team. <span>Complete cover.</span></h3>
+                <p class="bg-specimen-products-p">Integrated solutions for homes, offices and commercial properties.</p>
+              </div>
+
+              <div class="bg-specimen-products-grid">
+                <div class="bg-specimen-product-item">
+                  <div class="bg-specimen-product-image">
+                    <svg class="icon icon--camera" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+                      <circle cx="12" cy="13" r="3"></circle>
+                    </svg>
+                    <span class="bg-specimen-product-action">
+                      <svg class="icon icon--arrow-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="bg-specimen-product-meta">
+                    <span>01 / SOLUTION</span>
+                    <h4>CCTV Surveillance</h4>
+                  </div>
+                </div>
+
+                <div class="bg-specimen-product-item">
+                  <div class="bg-specimen-product-image">
+                    <svg class="icon icon--network" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="16" y="16" width="6" height="6" rx="1"></rect>
+                      <rect x="2" y="16" width="6" height="6" rx="1"></rect>
+                      <rect x="9" y="2" width="6" height="6" rx="1"></rect>
+                      <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"></path>
+                      <path d="M12 12V8"></path>
+                    </svg>
+                    <span class="bg-specimen-product-action">
+                      <svg class="icon icon--arrow-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="bg-specimen-product-meta">
+                    <span>02 / SOLUTION</span>
+                    <h4>Networking Solutions</h4>
+                  </div>
+                </div>
+
+                <div class="bg-specimen-product-item">
+                  <div class="bg-specimen-product-image">
+                    <svg class="icon icon--flame" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
+                    </svg>
+                    <span class="bg-specimen-product-action">
+                      <svg class="icon icon--arrow-right" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="bg-specimen-product-meta">
+                    <span>03 / SOLUTION</span>
+                    <h4>Fire Alarm Systems</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Approved Motion Pattern 07: Contact + Footer Motion -->
+        <div class="bg-pattern-block">
+          <div class="bg-pattern-header">
+            <span class="bg-pattern-tag">APPROVED PATTERN 07</span>
+            <h3>Contact + Footer Motion Specification</h3>
+            <p>Calm conversion closing sequence, composed consultation form reveal, accessible focus dynamics, and polished multi-column footer entrance concluding PROVITECH's web experience.</p>
+          </div>
+
+          <div class="bg-pattern-spec-grid">
+            <article class="bg-spec-card">
+              <h4>1. ScrollTrigger &amp; Section Entrances</h4>
+              <ul>
+                <li><strong>Trigger Placements:</strong> Viewport-aware `#contact` (<code>start: 'top 80%'</code>) and `.site-footer` (<code>start: 'top 88%'</code>), both using <code>once: true</code> and <code>fastScrollEnd: true</code>.</li>
+                <li><strong>Coordinated Progression:</strong> Eyebrow (0.35s) &rarr; Heading (0.48s, 0.10s offset) &rarr; Form Container (0.50s, 0.18s offset) &rarr; Supporting Copy (0.40s, 0.22s offset) &rarr; Contact Details (0.40s, 0.07s stagger, 0.30s offset) &rarr; Footer Columns (0.45s, 0.06s stagger) &rarr; Footer Bottom (0.35s, 0.20s offset).</li>
+                <li><strong>Decisive Easing:</strong> Approved <code>power3.out</code> deceleration; zero elastic bounce, spinning, or character splitting.</li>
+                <li><strong>Property Cleanup:</strong> <code>clearProps: 'transform,opacity'</code> executed upon completion to restore pure native CSS layout.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>2. Form Usability &amp; Composed Interface</h4>
+              <ul>
+                <li><strong>Unified Container Arrival:</strong> The form arrives as a single composed surface without jarring per-field delays, ensuring immediate visual clarity.</li>
+                <li><strong>Immediate Usability:</strong> Input fields and textarea remain immediately clickable, focusable, and tab-navigable throughout and after entrance.</li>
+                <li><strong>Tab Order &amp; DOM Integrity:</strong> Logical tab flow preserved: Name &rarr; Phone &rarr; Service Select &rarr; Message &rarr; Send Enquiry &rarr; Footer links.</li>
+                <li><strong>Submission Safety:</strong> Front-end demonstration preserved without simulated success banners; real backend integration reserved for Phase 7 PHP.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>3. Micro-Interactions &amp; Accessible Focus</h4>
+              <ul>
+                <li><strong>Input Focus States:</strong> Electric Blue border (<code>#009DFF</code>) and subtle high-contrast focus ring (<code>box-shadow: 0 0 0 3px rgba(0, 157, 255, 0.12)</code>); zero disruptive neon glow or input shaking.</li>
+                <li><strong>Submit CTA:</strong> Capsule button with Electric Blue background, white text and arrow. 2px hover lift (<code>translateY(-2px)</code>), 4px arrow right slide (<code>translateX(4px)</code>), and 0.98 active press scale.</li>
+                <li><strong>Contact Details Hover:</strong> Icon scale <code>1.04</code> and arrow slide <code>translateX(4px)</code> on genuine tel/email links.</li>
+                <li><strong>Footer Links:</strong> Hover color transition to Electric Blue with subtle <code>translateX(3px)</code>. Official logo entrance capped at 10px Y.</li>
+              </ul>
+            </article>
+
+            <article class="bg-spec-card">
+              <h4>4. Accessibility, Fast-Scroll &amp; Fallbacks</h4>
+              <ul>
+                <li><strong>Reduced Motion:</strong> All entrance translations, staggers, hover lifts, and arrow translations completely disabled under <code>prefers-reduced-motion: reduce</code>. Content renders immediately in resting state.</li>
+                <li><strong>Fast Scroll Protection:</strong> Rapid scrolling instantly resolves the sequence via <code>fastScrollEnd: true</code>, <code>onEnter</code>, and <code>onLeave</code> checks; zero stuck transforms or invisible fields.</li>
+                <li><strong>No-JS / GSAP Failure:</strong> All contact channels, form fields, and footer elements begin 100% visible in HTML/CSS. Failure leaves form and footer fully usable.</li>
+                <li><strong>Resize Cleanup:</strong> Managed via <code>gsap.matchMedia()</code>; viewport transitions preserve animated state without duplicate triggers or layout jumps.</li>
+              </ul>
+            </article>
+          </div>
+
+          <!-- Interactive Contact + Footer Motion Specimen -->
+          <div class="bg-contact-specimen">
+            <div class="bg-specimen-toolbar">
+              <span class="bg-specimen-label">INTERACTIVE SPECIMEN · CONTACT CONVERSION &amp; FOOTER</span>
+              <button type="button" class="bg-specimen-btn" id="btn-replay-contact-motion">
+                <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                </svg>
+                Replay Motion
+              </button>
+            </div>
+
+            <div class="bg-contact-stage" id="contact-specimen-stage">
+              <div class="bg-specimen-contact-grid">
+                <div class="bg-specimen-contact-copy">
+                  <span class="eyebrow bg-specimen-eyebrow">LET'S TALK SECURITY</span>
+                  <h3 class="bg-specimen-contact-h3">Ready to feel <span>more secure?</span></h3>
+                  <p class="bg-specimen-contact-p">Tell us a little about your project. Our Surat team will help you find the right next step.</p>
+                  
+                  <div class="bg-specimen-contact-channels">
+                    <div class="bg-specimen-contact-channel">
+                      <svg class="icon icon--phone" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                      <span>Call our team</span>
+                    </div>
+                    <div class="bg-specimen-contact-channel">
+                      <svg class="icon icon--mail" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                      <span>Send us an email</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-specimen-form-card">
+                  <h4>Request a consultation</h4>
+                  <div class="bg-specimen-input-mock">
+                    <label>Your Name</label>
+                    <div class="bg-specimen-input-box">Alexander Wright</div>
+                  </div>
+                  <div class="bg-specimen-input-mock">
+                    <label>Phone Number</label>
+                    <div class="bg-specimen-input-box">+91 98250 12345</div>
+                  </div>
+                  <button type="button" class="btn btn--primary btn--full bg-specimen-submit-btn">
+                    SEND ENQUIRY
+                    <svg class="icon icon--arrow-right" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Mini Footer Preview inside Stage -->
+              <div class="bg-specimen-mini-footer">
+                <div class="bg-specimen-footer-col">
+                  <strong>PROVITECH INTEGRATORS</strong>
+                  <span>Smarter security and technology solutions for Surat and beyond.</span>
+                </div>
+                <div class="bg-specimen-footer-col">
+                  <span class="bg-specimen-footer-link">Home</span>
+                  <span class="bg-specimen-footer-link">Services</span>
+                  <span class="bg-specimen-footer-link">Contact</span>
+                </div>
+                <div class="bg-specimen-footer-col">
+                  <span>&copy; 2026 ProviTech Integrators</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Guidelines Footer -->
+  <footer class="bg-footer">
+    <div class="bg-container bg-footer-inner">
+      <img src="assets/images/brand/provitech-logo.png" alt="ProviTech Integrators" width="145" height="48">
+      <span>PROVITECH INTEGRATORS · BRAND GUIDELINES</span>
+      <a href="index.html">
+        Return to website
+        <svg class="icon icon--arrow-right" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M5 12h14"></path>
+          <path d="m12 5 7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+/* ==========================================================================
+   PROVITECH INTEGRATORS — TYPOGRAPHY SYSTEM
+   Montserrat Hierarchy, Scales & Semantic Font Rules
+   ========================================================================== */
+
+html,
+body {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-regular);
+  color: var(--color-text);
+  line-height: var(--line-height-body);
+}
+
+/* Headings Base */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  color: var(--color-heading);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Primary Hero Display (H1) */
+h1,
+.display-title {
+  font-size: clamp(2.375rem, 5.5vw, 3.75rem); /* 38px–60px */
+  font-weight: var(--weight-extrabold);
+  line-height: var(--line-height-display);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+h1 em,
+.display-title em {
+  font-style: normal;
+  color: var(--color-primary);
+}
+
+/* Section Headings (H2) */
+h2,
+.section-title {
+  font-size: clamp(1.875rem, 3.8vw, 2.5rem); /* 30px–40px */
+  font-weight: var(--weight-bold);
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.025em;
+}
+
+h2 span,
+.section-title span {
+  color: var(--color-primary);
+}
+
+/* Card & Subsection Titles (H3) */
+h3,
+.card-title {
+  font-size: clamp(1.125rem, 2vw, 1.25rem); /* 18px–20px */
+  font-weight: var(--weight-bold);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--color-navy);
+}
+
+/* Minor Headings (H4) */
+h4 {
+  font-size: 1.125rem; /* 18px */
+  font-weight: var(--weight-semibold);
+  line-height: 1.35;
+  color: var(--color-navy);
+}
+
+/* Eyebrows & Section Badges (Section 25) */
+.eyebrow,
+.section-eyebrow {
+  display: block;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--letter-spacing-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+}
+
+/* Body Copy & Paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+  color: var(--color-text);
+  line-height: var(--line-height-body);
+  font-size: var(--font-size-base);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.text-lead {
+  font-size: var(--font-size-lg);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.text-muted {
+  color: var(--color-slate);
+}
+
+.text-blue {
+  color: var(--color-primary);
+}
+
+.text-navy {
+  color: var(--color-navy);
+}
+
+.text-white {
+  color: var(--color-white);
+}
+
+/* Navigation & Interactive Control Typography */
+.main-nav a {
+  font-size: var(--font-size-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+.btn {
+  font-size: var(--font-size-sm);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+}
+
+/* Form Controls */
+label {
+  font-size: var(--font-size-xs);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--letter-spacing-wide);
+  color: var(--color-navy);
+}
+
+input,
+select,
+textarea {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-ui);
+}

@@ -1,0 +1,25 @@
+
+/* Interactive hero concept switcher */
+.hero-version-switch{position:absolute;z-index:3;right:0;bottom:30px;display:flex;gap:7px;padding:7px;background:#082c29b8;border:1px solid #ffffff35;backdrop-filter:blur(9px)}
+.hero-version-switch button{border:1px solid transparent;background:transparent;color:#dcebe6;padding:9px 12px;min-width:76px;font-size:11px;font-weight:800;letter-spacing:.12em;display:flex;flex-direction:column;gap:3px;text-align:left}
+.hero-version-switch button span{font-size:9px;letter-spacing:.02em;font-weight:500;opacity:.7}
+.hero-version-switch button.active{background:#fff;color:#16463d}
+.hero-v2 .hero-image{background-position:62% center;filter:saturate(.82)}
+.hero-v2 .hero-shade{background:linear-gradient(90deg,rgba(4,25,27,.93) 0%,rgba(4,25,27,.76) 44%,rgba(4,25,27,.18) 100%)}
+.hero-v2 h1{font-size:clamp(66px,7.5vw,112px);letter-spacing:-.065em}
+.hero-v2 .hero-text{border-left:2px solid #95d6c6;padding-left:30px}
+.hero-v3 .hero-image{background-position:65% center}
+.hero-v3 .hero-shade{background:linear-gradient(90deg,rgba(238,246,242,.97) 0%,rgba(238,246,242,.91) 37%,rgba(238,246,242,.55) 58%,rgba(10,42,39,.12) 100%)}
+.hero-v3{color:#163d36}
+.hero-v3 .hero-kicker,.hero-v3 .hero-scroll{color:#267c6d}
+.hero-v3 .kicker-line{background:#278b7a}
+.hero-v3 .hero h1,.hero-v3 h1{color:#163d36}
+.hero-v3 h1 em{color:#188c79}
+.hero-v3 .hero-text>p{color:#3c6058}
+.hero-v3 .button-light{background:#0d6d60;color:white}
+.hero-v3 .button-light:hover{background:#08483f}
+.hero-v3 .hero-text-link{border-color:#5c9a8d;color:#14584d}
+.hero-v3 .hero-version-switch{background:#ffffffdf;border-color:#c5d8d0}
+.hero-v3 .hero-version-switch button{color:#315e54}
+.hero-v3 .hero-version-switch button.active{background:#0d6d60;color:white}
+@media(max-width:700px){.hero-version-switch{right:0;bottom:22px}.hero-scroll{bottom:88px}.hero-v2 .hero-text{padding-left:18px}.hero-v3 .hero-shade{background:linear-gradient(90deg,rgba(238,246,242,.97),rgba(238,246,242,.8) 65%,rgba(238,246,242,.3))}}

@@ -1,0 +1,222 @@
+/* ==========================================================================
+   PROVITECH INTEGRATORS — CSS DESIGN TOKENS
+   Master Variables & Single Source of Truth for Visual Design System
+   ========================================================================== */
+
+:root {
+
+  /* ==========================================================================
+     1. BRAND COLORS (OFFICIAL PROVITECH PALETTE)
+     ========================================================================== */
+  --color-charcoal: #25282D; /* Primary Charcoal: Dark foundations, footer, strong neutral surfaces */
+  --color-blue:     #009DFF; /* Electric Blue: Primary CTAs, active navigation, links, focus */
+  --color-navy:     #061B49; /* Deep Navy: Premium dark sections, strong headings, technical accents */
+  --color-white:    #FFFFFF; /* Pure White: Canvas, cards, text on dark backgrounds */
+  --color-light:    #F1F5F9; /* Light Grey: Alternate sections, soft cards, subtle panels */
+  --color-slate:    #374151; /* Slate Grey: Body text, secondary text, descriptions */
+
+  /* Backwards-compatible aliases for Phase 1 */
+  --brand-charcoal: var(--color-charcoal);
+  --brand-blue:     var(--color-blue);
+  --brand-navy:     var(--color-navy);
+  --brand-white:    var(--color-white);
+  --brand-light:    var(--color-light);
+  --brand-slate:    var(--color-slate);
+
+
+  /* ==========================================================================
+     2. SEMANTIC COLORS & DERIVATIONS
+     ========================================================================== */
+  --color-bg:               var(--color-white);
+  --color-bg-alt:           var(--color-light);
+  --color-bg-surface:       var(--color-white);
+  --color-bg-dark:          var(--color-charcoal);
+  --color-bg-navy:          var(--color-navy);
+  --color-bg-input:         #F8FAFC;
+  --color-bg-input-focus:   var(--color-white);
+  --color-bg-badge:         #EFF9FF;
+
+  --color-text:             var(--color-slate);
+  --color-text-main:        var(--color-charcoal);
+  --color-text-muted:       var(--color-slate);
+  --color-text-inverse:     var(--color-white);
+  --color-text-inverse-muted: #CBD5E1;
+  --color-text-heading:     var(--color-charcoal);
+  --color-text-navy:        var(--color-navy);
+  --color-text-accent:      var(--color-blue);
+
+  --color-primary:          var(--color-blue);
+  --color-primary-hover:    #0082D6;
+  --color-primary-light:    #33AFFF;
+  --color-secondary:        var(--color-navy);
+  --color-secondary-hover:  #0A2968;
+
+  --color-border:           #E2E8F0;
+  --color-border-subtle:    #D3DBE5;
+  --color-border-strong:    #CBD5E1;
+  --color-border-dark:      #374151;
+
+  --color-dark-section:     var(--color-charcoal);
+  --color-dark-section-alt: var(--color-navy);
+
+  --color-focus:            var(--color-blue);
+  --color-focus-ring:       rgba(0, 157, 255, 0.28);
+
+  --color-error:            #EF4444;
+  --color-error-bg:         #FEF2F2;
+  --color-error-text:       #991B1B;
+
+
+  /* ==========================================================================
+     3. TYPOGRAPHY (MONTSERRAT OFFICIAL)
+     ========================================================================== */
+  --font-primary:           "Montserrat", Arial, sans-serif;
+
+  --weight-regular:         400;
+  --weight-medium:          500;
+  --weight-semibold:        600;
+  --weight-bold:            700;
+  --weight-extrabold:       800;
+
+  /* Aliases for Phase 1 */
+  --font-weight-regular:    var(--weight-regular);
+  --font-weight-medium:     var(--weight-medium);
+  --font-weight-semibold:   var(--weight-semibold);
+  --font-weight-bold:       var(--weight-bold);
+  --font-weight-extrabold:  var(--weight-extrabold);
+
+  --font-size-xs:           0.75rem;    /* 12px */
+  --font-size-sm:           0.875rem;   /* 14px */
+  --font-size-base:         1rem;       /* 16px */
+  --font-size-lg:           1.125rem;   /* 18px */
+  --font-size-xl:           1.25rem;    /* 20px */
+  --font-size-2xl:          1.5rem;     /* 24px */
+  --font-size-3xl:          1.75rem;    /* 28px */
+  --font-size-4xl:          2.25rem;    /* 36px */
+  --font-size-5xl:          3rem;       /* 48px */
+
+  /* Line Heights */
+  --line-height-display:    1.08;       /* Hero/display: 1.05 – 1.12 */
+  --line-height-heading:    1.2;        /* Headings: 1.1 – 1.25 */
+  --line-height-snug:       1.35;
+  --line-height-body:       1.65;       /* Body: 1.6 – 1.75 */
+  --line-height-base:       var(--line-height-body);
+  --line-height-tight:      var(--line-height-display);
+  --line-height-ui:         1.45;       /* Small UI text: 1.4 – 1.5 */
+
+  /* Letter Spacing */
+  --letter-spacing-tight:   -0.03em;
+  --letter-spacing-normal:  0;
+  --letter-spacing-wide:    0.04em;
+  --letter-spacing-eyebrow: 0.2em;
+  --letter-spacing-kicker:  0.28em;
+
+
+  /* ==========================================================================
+     4. SPACING SCALE (8-POINT HARMONIC)
+     ========================================================================== */
+  --space-1:                0.25rem;    /* 4px */
+  --space-2:                0.5rem;     /* 8px */
+  --space-3:                0.75rem;    /* 12px */
+  --space-4:                1rem;       /* 16px */
+  --space-5:                1.25rem;    /* 20px */
+  --space-6:                1.5rem;     /* 24px */
+  --space-8:                2rem;       /* 32px */
+  --space-10:               2.5rem;     /* 40px */
+  --space-12:               3rem;       /* 48px */
+  --space-16:               4rem;       /* 64px */
+  --space-20:               5rem;       /* 80px */
+  --space-24:               6rem;       /* 96px */
+
+  --section-pad-sm:         clamp(3.5rem, 6vw, 4.5rem);  /* 56px–72px */
+  --section-pad-lg:         clamp(4.5rem, 8vw, 7.5rem);  /* 72px–120px */
+
+
+  /* ==========================================================================
+     5. LAYOUT & CONTAINERS
+     ========================================================================== */
+  --container-max:          1200px;
+  --container-max-width:    var(--container-max);
+  --container-narrow:       840px;
+  --page-gutter:            clamp(1rem, 3.5vw, 2rem);   /* Fluid page gutter: 16px (mobile) to 32px (desktop) */
+  --container-pad-desktop:  2rem;
+  --container-pad-mobile:   1rem;
+
+  --header-height-desktop:  82px;
+  --header-height-mobile:   70px;
+  --topline-height:         32px;
+
+
+  /* ==========================================================================
+     6. BORDER RADIUS & SHAPE LANGUAGE
+     ========================================================================== */
+  --radius-xs:              4px;        /* Micro-indicators, dots, subtle borders */
+  --radius-sm:              8px;        /* Small controls, number markers, switcher buttons */
+  --radius-md:              12px;       /* Form inputs, selects, textareas, trust pillars */
+  --radius-lg:              16px;       /* Service cards, product cards, brand manual cards */
+  --radius-xl:              20px;       /* Large cards, contact form container, approach image */
+  --radius-2xl:             24px;       /* Medium buttons capsule-end, feature panels */
+  --radius-control:         20px;       /* Small buttons, header CTA capsule silhouette */
+  --radius-btn:             24px;       /* Medium/default button capsule radius (48px height) */
+  --radius-btn-lg:          26px;       /* Large hero conversion CTA capsule radius (52px height) */
+  --radius-pill:            999px;      /* Full pill badges, eyebrow chips, floating pills */
+  --radius-full:            var(--radius-pill); /* Backwards-compatibility alias */
+
+
+  /* ==========================================================================
+     7. SHADOW SYSTEM
+     ========================================================================== */
+  --shadow-sm:              0 1px 3px rgba(6, 27, 73, 0.06);
+  --shadow-md:              0 4px 14px rgba(6, 27, 73, 0.08);
+  --shadow-lg:              0 12px 30px rgba(6, 27, 73, 0.10);
+  --shadow-scrolled:        0 8px 25px rgba(6, 27, 73, 0.08);
+  --shadow-form:            0 20px 50px rgba(6, 27, 73, 0.07);
+
+
+  /* ==========================================================================
+     8. MOTION & TRANSITIONS (Phase 4.7 Animation Foundation)
+     ========================================================================== */
+  /* Duration Scale */
+  --motion-duration-micro:       180ms;  /* 0.18s: UI micro-interactions, icons, arrows, indicators */
+  --motion-duration-fast:        250ms;  /* 0.25s: Button hovers, mobile drawer toggle, fast cues */
+  --motion-duration-standard:    400ms;  /* 0.40s: Standard scroll reveals, card entrances, layout shifts */
+  --motion-duration-slow:        650ms;  /* 0.65s: Complex section reveals, background transitions */
+  --motion-duration-story:       950ms;  /* 0.95s: Controlled hero storytelling, sequence branding */
+
+  /* Backwards-Compatibility Aliases */
+  --transition-fast:             var(--motion-duration-micro) var(--motion-ease-standard);
+  --transition-base:             var(--motion-duration-fast) var(--motion-ease-standard);
+  --transition-normal:           var(--transition-base);
+  --transition-slow:             var(--motion-duration-standard) var(--motion-ease-standard);
+
+  /* Easing Vocabulary (CSS cubic-bezier equivalents to GSAP eases) */
+  --motion-ease-standard:        cubic-bezier(0.25, 1, 0.5, 1);    /* power2.out: natural, smooth interface motion */
+  --motion-ease-entrance:        cubic-bezier(0.16, 1, 0.3, 1);    /* power3.out: decisive deceleration for entering items */
+  --motion-ease-exit:            cubic-bezier(0.4, 0, 1, 1);       /* power2.in: prompt departure */
+  --motion-ease-emphasis:        cubic-bezier(0.65, 0, 0.35, 1);   /* power2.inOut: symmetrical focus */
+
+  /* Movement Distance Limits */
+  --motion-distance-sm:          12px;   /* Subtle shift (micro-elements, badges) */
+  --motion-distance-md:          24px;   /* Standard entrance translation (headings, cards) */
+  --motion-distance-lg:          40px;   /* Maximum entrance movement limit */
+
+  /* Stagger Limits */
+  --motion-stagger-fast:         0.06s;  /* Rapid succession (chips, metrics) */
+  --motion-stagger-base:         0.08s;  /* Default stagger for card grids */
+  --motion-stagger-slow:         0.12s;  /* Narrative sequence limit */
+
+  /* Scale Range */
+  --motion-scale-press:          0.98;   /* Subtle active click compression */
+  --motion-scale-hover:          1.02;   /* Restrained card/image hover lift */
+  --motion-scale-max:            1.03;   /* Maximum allowable non-disruptive scale */
+
+
+  /* ==========================================================================
+     9. Z-INDEX LAYERS
+     ========================================================================== */
+  --z-base:                 1;
+  --z-elevated:             10;
+  --z-sticky:               50;
+  --z-drawer:               60;
+  --z-modal:                100;
+}
